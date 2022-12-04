@@ -35,7 +35,7 @@ func task() {
 			state.EvgState.Score++
 		}
 		if state.RomkaState.WasSent == true {
-			sate.RomkaState.Score++
+			state.RomkaState.Score++
 		}
 		state.MomState.WasSent = false
 		state.EvgState.WasSent = false

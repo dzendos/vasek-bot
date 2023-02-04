@@ -12,20 +12,20 @@ type CurrentState struct {
 var MomState = CurrentState{
 	UserID:  977443987,
 	Name:    "Мама",
-	Score:   2,
+	Score:   -1,
 	WasSent: false,
 }
 
 var RomkaState = CurrentState{
 	UserID:  1949227623,
 	Name:    "Ромка",
-	Score:   2,
+	Score:   0,
 	WasSent: false,
 }
 
 var EvgState = CurrentState{
 	UserID:  823601282,
 	Name:    "Женя",
-	Score:   2,
+	Score:   0,
 	WasSent: false,
 }

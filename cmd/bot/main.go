@@ -28,15 +28,16 @@ func task() {
 		}
 		tgClient.SendMessage(text, -657739139)
 	} else if hours == 0 {
-		if state.MomState.WasSent == true {
+		if !state.MomState.WasSent {
 			state.MomState.Score++
 		}
-		if state.EvgState.WasSent == true {
+		if !state.EvgState.WasSent {
 			state.EvgState.Score++
 		}
-		if state.RomkaState.WasSent == true {
+		if !state.RomkaState.WasSent {
 			state.RomkaState.Score++
 		}
+
 		state.MomState.WasSent = false
 		state.EvgState.WasSent = false
 		state.RomkaState.WasSent = false
